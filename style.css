@@ -67,3 +67,169 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide elements visually but keep them accessible for screen readers */
+.hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Basic styling */
+header {
+  background-color: #f7ead7;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+
+  height: 600px;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+}
+
+ul > li:nth-child(1) {
+  align-self: flex-start;
+  align-self: stretch;
+  flex-grow: 2;
+  background-color: #cdb4db;
+}
+
+ul > li:nth-child(2) {
+  align-self: flex-end;
+  flex-grow: 1;
+  background-color: #ffafcc;
+}
+
+ul > li:nth-child(3) {
+  align-self: stretch;
+  background-color: #ffc8dd;
+}
+
+ul > li:nth-child(4) {
+  align-self: center;
+  background-color: #bde0fe;
+}
+
+ul > li:nth-child(5) {
+  align-self: stretch;
+  flex-grow: 2;
+  background-color: #bde0fe;
+}
+
+ul > li:nth-child(6) {
+  align-self: stretch;
+  background-color: #ffafcc;
+}
+
+.content {
+  padding: 3rem;;
+}
+
+main {
+  margin: 0 1.3rem 5rem 1.3rem;
+}
+
+ul > li {
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-me {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+.about-image {
+  max-width: 100%;
+}
+
+.content {
+  flex: 2;
+}
+
+.MyWork {
+  text-align: center;
+}
+
+.work-images {
+  display: inline-block;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.image-row img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+  border: 2px solid black; 
+  margin: 5px; 
+}
+
+.call {
+  background-color: #cdb4db;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 10%;
+  color: #0c0a3e;
+}
+
